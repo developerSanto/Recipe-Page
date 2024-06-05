@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width:100%;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+  
+    
+}
+.main{
+    width: 375px;
+    min-height: 530px;
+    border: 1px solid hsl(0, 0%, 12%);  
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+}
+
+.img-container{
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    margin-top:50px;
+    border-radius: 50px;
+}
+
+.jessica-profile{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.name{
+    color:white;
+    margin-top:30px;
+    margin-left: 105px;
+    
+}
+.address{
+    color:white;
+    margin-top:10px;
+    margin-left: 105px;
+    color:rgb(212, 212, 13);
+}
+.profession{
+    color:white;
+    font-size: 14px;
+    margin-top:20px;
+    margin-left: 60px;
+} 
+
+button{
+    font-size: 16px;
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    padding:20px;
+    margin: 10px 40px 10px 40px;    
+   align-items: center;
+   justify-content: center;
+   display: flex; 
+   background-color: hsl(0, 0%, 12%);
+   color:white;
+}
+
+a{
+    text-decoration: none;
+} 
+
+button:hover{
+    background-color: yellow;
+}
